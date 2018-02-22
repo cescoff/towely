@@ -5,7 +5,7 @@
     <variables-url>https://raw.githubusercontent.com/cescoff/towely/master/Variables.xml</variables-url>
     <template-url>https://raw.githubusercontent.com/cescoff/towely/master/Towely.xml</template-url>
     <output-config-url>https://raw.githubusercontent.com/cescoff/towely/master/TowelOut.xml</output-config-url>
-    <dynamic-preview-url>https://raw.githubusercontent.com/cescoff/towely/master/TowelyShape.xml</dynamic-preview-url>
+    <dynamic-preview-url>https://raw.githubusercontent.com/cescoff/towely/master/TowelShape.xml</dynamic-preview-url>
     <dynamic-preview-output-url>https://raw.githubusercontent.com/cescoff/towely/master/TowelShapeOut.xml</dynamic-preview-output-url>
     <documentation-url>https://raw.githubusercontent.com/cescoff/towely/master/instructions.html</documentation-url>
     <description>Sample leather laser cut project</description>
