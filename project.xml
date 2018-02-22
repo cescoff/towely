@@ -13,7 +13,7 @@
     <default>
 	<variable name="fullWidth" display-name="Brief case width" unit="mm" description="In millimeters">297</variable>
         <variable name="fullHeight" display-name="Brief case height" unit="mm" description="In millimeters">210</variable>
-        <variable name="fullTopHeight" display-name="Cover height" unit="mm" description="In millimeters">90</variable>
+        <variable name="fullTopHeight" display-name="Cover height" unit="mm" description="In millimeters">150</variable>
         <variable name="fullHeadWidth" display-name="Cover head width" unit="mm" description="In millimeters">30</variable>
         <variable name="fullOmega" display-name="Cover offset" unit="mm" description="In millimeters">25</variable>
     </default>
