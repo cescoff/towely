@@ -9,7 +9,7 @@
     <dynamic-preview-output-url>https://raw.githubusercontent.com/cescoff/towely/master/TowelShape.xml</dynamic-preview-output-url>
     <documentation-url>https://raw.githubusercontent.com/cescoff/towely/master/instructions.html</documentation-url>
     <description>Sample leather laser cut project</description>
-    <presentation>This is a sample for customizable leather work with laser cut...</presentation>
+    <presentation>&lt;p&gt;This is a sample for customizable leather work with laser cut...&lt;/p&gt;&lt;p&gt;Write your project description here&lt;/p&gt;</presentation>
     <default>
 	<variable name="fullWidth" display-name="Brief case width" unit="mm" description="In millimeters">297</variable>
         <variable name="fullHeight" display-name="Brief case height" unit="mm" description="In millimeters">210</variable>
