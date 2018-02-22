@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+	<name>Rat Trap Chair</name>
+    <thumbnail-url>https://github.com/cescoff/towely/blob/master/towely_preview.jpeg?raw=true</thumbnail-url>
+    <variables-url>https://raw.githubusercontent.com/cescoff/towely/master/Variables.xml</variables-url>
+    <template-url>https://raw.githubusercontent.com/cescoff/towely/master/Towely.xml</template-url>
+    <output-config-url>https://raw.githubusercontent.com/cescoff/towely/master/TowelOut.xml</output-config-url>
+    <dynamic-preview-url>https://raw.githubusercontent.com/cescoff/towely/master/Towely.xml</dynamic-preview-url>
+    <dynamic-preview-output-url>https://raw.githubusercontent.com/cescoff/towely/master/TowelShape.xml</dynamic-preview-output-url>
+    <documentation-url>https://raw.githubusercontent.com/cescoff/towely/master/doc/instructions.html</documentation-url>
+    <description>Sample leather laser cut project</description>
+    <presentation>This is a sample for customizable leather work with laser cut...</presentation>
+    <default>
+	<variable name="fullWidth" display-name="Brief case width" unit="mm" description="In millimeters">297</variable>
+        <variable name="fullHeight" display-name="Brief case height" unit="mm" description="In millimeters">210</variable>
+        <variable name="fullTopHeight" display-name="Cover height" unit="mm" description="In millimeters">90</variable>
+        <variable name="fullHeadWidth" display-name="Cover head width" unit="mm" description="In millimeters">30</variable>
+        <variable name="fullOmega" display-name="Cover offset" unit="mm" description="In millimeters">25</variable>
+    </default>
+</project>

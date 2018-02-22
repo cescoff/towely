@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<output-config>
+    <outputs>
+        <output name="Cover" format="SVG">
+            <layer>Cover</layer>
+        </output>
+        <output name="Body" format="SVG">
+            <layer>Body</layer>
+        </output>
+    </outputs>
+</output-config>

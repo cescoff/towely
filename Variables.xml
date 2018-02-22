@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<variables>
+    
+	<variable name="borderdistance" value="10.0"/>
+
+	
+	<!-- User configurable -->
+	
+	<!-- h-->
+	<variable name="fullWidth" value="297"/>
+	<variable name="fullHeight" value="210"/>
+	<variable name="fullOmega" value="25"/>
+	<variable name="fullTopHeight" value="90"/>
+	<variable name="fullHeadWidth" value="30"/>
+
+	<!-- Basics -->
+	<!-- ${} -->
+        <expression name="DJ" print="true" expression="Math.sqrt(Math.pow(${fullTopHeight}-${fullOmega},2) + Math.pow(${fullWidth}/2))"/>
+        <expression name="DE" print="true" expression="(${DJ}) / ((${fullHeadWidth}/${fullWidth}) + 1)"/>
+	<expression name="cosAlpha" print="true" expression="${fullWidth}/(2*${DJ})"/>
+	<expression name="sinAlpha" print="true" expression="(${fullTopHeight}-${fullOmega})/${DJ}"/>
+	
+	<expression name="xA" print="true" expression="${borderdistance}"/>
+	<expression name="yA" print="true" expression="${borderdistance}"/>
+	
+	<expression name="xB" print="true" expression="${xA}+${fullWidth}"/>
+	<expression name="yB" print="true" expression="${yA}"/>
+
+	<expression name="xC" print="true" expression="${xA}+${fullWidth}"/>
+	<expression name="yC" print="true" expression="${yA}+${fullOmega}"/>
+
+        <expression name="xD" print="true" expression="${xA}"/>
+        <expression name="yD" print="true" expression="${yA}+${fullOmega}"/>
+
+	<expression name="xJ" print="true" expression="${xA}+${fullWidth}/2"/>
+	<expression name="yJ" print="true" expression="${yA}+${fullTopHeight}"/>
+
+	<expression name="xE" print="true" expression="${DE}*${cosAlpha}"/>
+	<expression name="yE" print="true" expression="${DE}*${sinAlpha}"/>
+	
+	<expression name="xG" print="true" expression="${xB}"/>
+        <expression name="yG" print="true" expression="${yB}+${fullHeight}"/>
+
+	<expression name="xH" print="true" expression="${xA}"/>
+        <expression name="yH" print="true" expression="${yB}+${fullHeight}"/>
+
+</variables>
+
