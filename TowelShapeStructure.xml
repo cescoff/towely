@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<blue-print>
+	<!-- ********** -->
+	<!-- Main layer -->
+	<!-- ********** -->
+    <distance-unit>mm</distance-unit>
+	
+	<!-- Reference Point -->
+	<point x="${xA}" y="${yA}" name="A" layer="Main" />
+	<point x="${xB}" y="${yB}" name="B" layer="Main" />	
+	<point x="${xC}" y="${yC}" name="C" layer="Main" />
+	<point x="${xD}" y="${yD}" name="D" layer="Main" />
+	<point x="${xE}" y="${yE}" name="E" layer="Main" />
+	<point x="${xE}+${fullHeadWidth}" y="${yE}" name="F" layer="Main" />
+	<point x="${xG}" y="${yG}" name="G" layer="Main" />
+	<point x="${xH}" y="${yH}" name="H" layer="Main" />
+
+	
+
+	<!-- ******** -->
+	<!-- Top Face -->
+	<!-- ******** -->
+
+	<path name="CoverPath" layer="Cover" action="VIEW" >
+		<point x="A//Center//0" y="A//Center//0" />
+		<point x="B//Center//0" y="B//Center//0" />
+		<point x="C//Center//0" y="C//Center//0" />
+		<point x="F//Center//0" y="F//Center//0" />
+		<point x="E//Center//0" y="E//Center//0" />
+		<point x="D//Center//0" y="D//Center//0" />
+		<point x="A//Center//0" y="A//Center//0" />
+	</path>
+
+	<path name="BodyPath" layer="Body" action="VIEW" >
+                <point x="A//Center//0" y="A//Center//0" />
+                <point x="B//Center//0" y="B//Center//0" />
+                <point x="G//Center//0" y="G//Center//0" />
+                <point x="H//Center//0" y="H//Center//0" />
+                <point x="A//Center//0" y="A//Center//0" />
+        </path>
+
+</blue-print>
