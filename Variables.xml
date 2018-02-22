@@ -15,7 +15,7 @@
 
 	<!-- Basics -->
 	<!-- ${} -->
-        <expression name="DJ" print="true" expression="Math.sqrt(Math.pow(${fullTopHeight}-${fullOmega},2) + Math.pow(${fullWidth}/2))"/>
+        <expression name="DJ" print="true" expression="Math.sqrt(Math.pow(${fullTopHeight}-${fullOmega},2) + Math.pow(${fullWidth}/2, 2))"/>
         <expression name="DE" print="true" expression="(${DJ}) / ((${fullHeadWidth}/${fullWidth}) + 1)"/>
 	<expression name="cosAlpha" print="true" expression="${fullWidth}/(2*${DJ})"/>
 	<expression name="sinAlpha" print="true" expression="(${fullTopHeight}-${fullOmega})/${DJ}"/>
