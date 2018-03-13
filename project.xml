@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <project>
 	<name>Towely briefcase</name>
-    <thumbnail-url>https://github.com/cescoff/towely/blob/master/towely_preview.jpeg?raw=true</thumbnail-url>
+    <thumbnail-url>https://github.com/cescoff/towely/raw/master/towely_thumbnail.PNG</thumbnail-url>
+    <previews>
+        <url>https://github.com/cescoff/towely/raw/master/towely_preview.jpeg</url>
+    </previews>
     <variables-url>https://raw.githubusercontent.com/cescoff/towely/master/Variables.xml</variables-url>
     <template-url>https://raw.githubusercontent.com/cescoff/towely/master/Towely.xml</template-url>
     <output-config-url>https://raw.githubusercontent.com/cescoff/towely/master/TowelOut.xml</output-config-url>
