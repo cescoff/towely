@@ -38,5 +38,11 @@
                 <point x="H//Center//0" y="H//Center//0" />
                 <point x="A//Center//0" y="A//Center//0" />
         </path>
-
+	
+	<arc name="RoundCorner1" layer="Body" radius="10" action="VIEW">
+		<center x="A//Center//0" y="A//Center//0" />
+		<point1 x="B/Center//0" y="B//Center//0" />
+		<point2 x="C//Center//0" y="C//Center//0" />
+	</arc>
+	
 </blue-print>
