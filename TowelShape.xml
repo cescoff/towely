@@ -41,8 +41,8 @@
 	
 	<arc name="RoundCorner1" layer="Body" radius="100" action="VIEW">
 		<center x="B//Center//0" y="B//Center//0" />
-		<point1 x="A//Center//0" y="A//Center//0" />
-		<point2 x="G//Center//0" y="G//Center//0" />
+		<point1 x="G//Center//0" y="G//Center//0" />
+		<point2 x="A//Center//0" y="A//Center//0" />
 	</arc>
 	
 	
